@@ -29,3 +29,16 @@ def cleanWord(word):
 filtered_list = [cleanWord(word) for word in my_string.split()]
 print(filtered_list)
 
+
+# Quiz question using list comprehension as a deconstructor 
+
+values = [[1,'i','a'], [2, 'we', 'be', 'it'], [3, 'are', 'few', 'too']]
+
+# Use list comprehension to extract the first element (integer) followed by a list of the rest of the elements
+
+deconstruction = {item[0]: item[1:] for item in values}
+deconstruction[4] = ["common", "to", "understand"]
+deconstruction[4] = ["new", "new", "new"]
+
+print(deconstruction)
+
