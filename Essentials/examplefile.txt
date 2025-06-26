@@ -1,0 +1,5 @@
+This is example data
+10  10  20  1   2   0
+15  89  22  2   1   9
+
+End of File...
