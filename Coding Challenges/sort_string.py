@@ -4,4 +4,4 @@ def sortString(input):
     return ' '.join(sorted(input.split(), key=str.casefold))
 
 
-print(sortString("This is not sorted"))
+print(sortString("This is not sorted"))   
