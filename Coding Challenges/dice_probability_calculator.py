@@ -33,8 +33,8 @@ def diceProbability(*args):
 
     # Now calculate the probability of each role by dividing the frequency by the number of iterations within the dictionary
     for key, value in sorted_dict.items():
-         print(f"Frequency of {key} is: {round((value / original_iterations) * 100, 2)}%")
+         print(f"Probability of {key} is: {round((value / original_iterations) * 100, 6)}%")
     print(sorted_dict)
 
         
-diceProbability(4,2)
+diceProbability()
